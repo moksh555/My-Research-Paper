@@ -1,5 +1,4 @@
-# My-Research-Paper
-# This repository contains the source material, documentation, and summaries for two of my IEEE published research papers in the domain of medical machine learning. Both works focus on the early detection of cardiovascular disease (CVD) using different approaches, one with classical machine learning models and the other with neural networks and big data infrastructure.
+# This repository contains documentation, and summaries for two of my IEEE published research papers in the domain of medical machine learning. Both works focus on the early detection of cardiovascular disease (CVD) using different approaches, one with classical machine learning models and the other with neural networks and big data infrastructure.
 # The goal of these projects is to demonstrate how predictive analytics and artificial intelligence can be applied to real-world healthcare problems to assist in early diagnosis and improve patient outcomes.
 
 # 1. Cardio-Vascular Risk Detection System using Different Machine Learning Techniques
