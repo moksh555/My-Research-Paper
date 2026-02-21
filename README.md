@@ -1,116 +1,87 @@
-# This repository contains documentation, and summaries for two of my IEEE published research papers in the domain of medical machine learning. Both works focus on the early detection of cardiovascular disease (CVD) using different approaches, one with classical machine learning models and the other with neural networks and big data infrastructure.
-# The goal of these projects is to demonstrate how predictive analytics and artificial intelligence can be applied to real-world healthcare problems to assist in early diagnosis and improve patient outcomes.
+# My Research Papers: Early Detection of Cardiovascular Disease with AI & Big Data
 
-# 1. Cardio-Vascular Risk Detection System using Different Machine Learning Techniques
-## DOI: 10.1109/iSSSC56467.2022.10051216
-
-Cardiovascular disease is one of the leading causes of death and disability worldwide. This project focuses on developing a patient-level risk detection system using classical machine learning algorithms to classify individuals into "risky" or "non-risky" categories based on clinical indicators.
+Welcome! This repository contains summaries and documentation for two IEEE-published papers on medical machine learning. Both focus on early detection of cardiovascular disease (CVD) using classical ML and neural networks, with real-world healthcare impact.
 
 ---
 
-## Abstract
-
-Atherosclerosis, the underlying cause of most cardiovascular conditions, progresses silently and is often detected too late. Early identification through machine learning can guide timely medical intervention. This research performs extensive experimentation on different classification models and achieves a 98% recognition accuracy using a Decision Tree Classifier.
-
----
-
-## Dataset
-
-- Approximately 1,000–1,500 anonymized patient records  
-- Key features:
-  - Age, Gender  
-  - Resting Blood Pressure  
-  - Cholesterol Levels  
-  - ECG Results  
-  - Maximum Heart Rate Achieved  
-  - Exercise-Induced Angina  
-  - Blood Sugar Levels  
-  - Target label: Cardiovascular risk (binary)
+## Table of Contents
+1. [Overview](#overview)
+2. [Paper 1: Classical ML for CVD Risk Detection](#paper-1)
+    - Abstract
+    - Dataset
+    - Models Used
+    - Methodology
+    - Results & Impact
+3. [Paper 2: Big Data & Neural Networks for CVD Prediction](#paper-2)
+    - Abstract
+    - Dataset
+    - AI Models & Framework
+    - Methodology
+    - Results & Impact
 
 ---
 
-## Machine Learning Models
+## Overview
+These projects demonstrate how predictive analytics and AI can assist in early diagnosis and improve patient outcomes for cardiovascular disease. One paper uses classical ML models, the other leverages neural networks and big data infrastructure.
 
-- Decision Tree (Best performing, 98% accuracy)  
-- Logistic Regression  
-- Support Vector Machine (SVM)  
-- K-Nearest Neighbors (KNN)  
+---
+
+## <a name="paper-1"></a>Paper 1: Cardio-Vascular Risk Detection System using Different Machine Learning Techniques
+**DOI:** [10.1109/iSSSC56467.2022.10051216](https://doi.org/10.1109/iSSSC56467.2022.10051216)
+
+### Abstract
+Atherosclerosis, the main cause of most cardiovascular conditions, often progresses silently. Early identification through machine learning can guide timely medical intervention. This research experiments with several classification models and achieves 98% accuracy using a Decision Tree Classifier.
+
+### Dataset
+- 1,000–1,500 anonymized patient records
+- Features: Age, Gender, Resting Blood Pressure, Cholesterol, ECG, Max Heart Rate, Exercise-Induced Angina, Blood Sugar, Cardiovascular risk (binary)
+
+### Models Used
+- Decision Tree (Best, 98% accuracy)
+- Logistic Regression
+- SVM
+- KNN
 - Naive Bayes
 
----
+### Methodology
+- Data preprocessing (standardization, label encoding)
+- Train-test split (stratified)
+- 10-fold cross-validation
+- Model tuning & evaluation: Accuracy, Precision, Recall, F1 Score, Confusion Matrix
 
-## Methodology
-
-- Data preprocessing (standardization, label encoding)  
-- Train-test split with stratification  
-- Cross-validation (10-fold)  
-- Model tuning and evaluation using:
-  - Accuracy  
-  - Precision / Recall  
-  - F1 Score  
-  - Confusion Matrix
+### Results & Impact
+- Decision Tree model performed best
+- Enables early risk detection and preventive routines
+- Suitable for diagnostic tools, hospital systems, or mobile health apps
 
 ---
 
-## Results and Impact
+## <a name="paper-2"></a>Paper 2: Big Data Predictive Analytics Model for Cardiovascular Risk Detection using Machine Learning Techniques
+**DOI:** [10.1109/iSSSC56467.2022.10051293](https://doi.org/10.1109/iSSSC56467.2022.10051293)
 
-- Decision Tree model achieved the highest performance  
-- Enables patients to detect risk early and follow preventive routines  
-- Suitable for integration into diagnostic tools, hospital systems, or mobile health apps
+### Abstract
+This project extends CVD risk prediction into a big data and AI-driven framework. Using ~1,500 patient records and geospatial health data, it applies Artificial Neural Networks (ANN) to achieve 99% accuracy. The focus is scalable, real-time risk assessment for population-level health.
 
----
+### Dataset
+- ~1,500 patient records (demographic & clinical)
+- Features: Age, Gender, BMI, Smoking, Alcohol, Physical Activity, Blood Pressure, Glucose, Cholesterol, Geospatial region codes, CVD label
 
-# 2. Big Data Predictive Analytics Model for Cardiovascular Risk Detection using Machine Learning Techniques
-## DOI: 10.1109/iSSSC56467.2022.10051293
+### AI Models & Framework
+- ANN (ReLU, softmax layers)
+- Compared with Logistic Regression, Decision Trees
+- Training: Cross-validation, grid search for hyperparameter tuning
 
-This project extends cardiovascular risk prediction into a big data and AI-driven framework. It leverages neural networks and large-scale patient records to enable fast, scalable, and intelligent CVD detection suitable for real-time systems and healthcare policy planning.
+### Methodology
+- Big data ingestion pipeline (simulated/Spark-based)
+- Feature vectorization & normalization
+- Multi-layer ANN architecture optimized for precision & recall
+- Evaluation: Accuracy, Confusion Matrix, ROC Curve
 
----
-
-## Abstract
-
-Using a dataset of around 1,500 patients and integrating geospatial health data, this research applies Artificial Neural Networks (ANN) to achieve 99% recognition accuracy. The focus is on early detection and scalable deployment in population-level risk assessment scenarios.
-
----
-
-## Dataset
-
-- ~1,500 patient records with demographic and clinical data  
-- Features include:
-  - Age, Gender, BMI  
-  - Smoking, Alcohol Use, Physical Activity  
-  - Blood Pressure, Glucose, Cholesterol  
-  - Geospatial region codes (for policy insight)  
-  - Label: Presence of cardiovascular disease
+### Results & Impact
+- ANN achieved 99% accuracy with strong recall
+- Designed for real-time health dashboards/public health systems
+- Supports health policy planning by mapping CVD risk across regions
 
 ---
 
-## AI Models and Framework
-
-- Artificial Neural Network (ANN) with ReLU and softmax layers  
-- Compared with:
-  - Logistic Regression  
-  - Decision Trees  
-- Trained and tested using:
-  - Cross-validation  
-  - Grid search for hyperparameter tuning
-
----
-
-## Methodology
-
-- Big data ingestion pipeline (simulated or Spark-based)  
-- Feature vectorization and normalization  
-- Multi-layer ANN architecture optimized for precision and recall  
-- Evaluation using:
-  - Accuracy  
-  - Confusion Matrix  
-  - ROC Curve
-
----
-
-## Results and Impact
-
-- ANN achieved 99% accuracy with strong recall  
-- Designed for use in real-time health dashboards or public health systems  
-- Supports health policy planning by mapping cardiovascular risk across regions
+For more details, see the full papers or contact me!
