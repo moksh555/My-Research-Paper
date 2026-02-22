@@ -1,32 +1,22 @@
-# My Research Papers: Early Detection of Cardiovascular Disease with AI & Big Data
+# Research Papers: AI & Big Data for Cardiovascular Disease Detection
 
-Welcome! This repository contains summaries and documentation for two IEEE-published papers on medical machine learning. Both focus on early detection of cardiovascular disease (CVD) using classical ML and neural networks, with real-world healthcare impact.
+Welcome to my research repository! Here you'll find concise summaries and documentation for two IEEE-published papers focused on leveraging machine learning and big data for early detection of cardiovascular disease (CVD).
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 1. [Overview](#overview)
 2. [Paper 1: Classical ML for CVD Risk Detection](#paper-1)
-    - Abstract
-    - Dataset
-    - Models Used
-    - Methodology
-    - Results & Impact
 3. [Paper 2: Big Data & Neural Networks for CVD Prediction](#paper-2)
-    - Abstract
-    - Dataset
-    - AI Models & Framework
-    - Methodology
-    - Results & Impact
 
 ---
 
-## Overview
-These projects demonstrate how predictive analytics and AI can assist in early diagnosis and improve patient outcomes for cardiovascular disease. One paper uses classical ML models, the other leverages neural networks and big data infrastructure.
+## <a name="overview"></a>Overview
+These projects showcase how predictive analytics and artificial intelligence can transform healthcare by enabling early diagnosis and improving patient outcomes. The first paper uses classical ML models, while the second leverages neural networks and scalable big data infrastructure.
 
 ---
 
-## <a name="paper-1"></a>Paper 1: Cardio-Vascular Risk Detection System using Different Machine Learning Techniques
+## <a name="paper-1"></a>Paper 1: Cardio-Vascular Risk Detection System using Machine Learning
 **DOI:** [10.1109/iSSSC56467.2022.10051216](https://doi.org/10.1109/iSSSC56467.2022.10051216)
 
 ### Abstract
@@ -56,7 +46,7 @@ Atherosclerosis, the main cause of most cardiovascular conditions, often progres
 
 ---
 
-## <a name="paper-2"></a>Paper 2: Big Data Predictive Analytics Model for Cardiovascular Risk Detection using Machine Learning Techniques
+## <a name="paper-2"></a>Paper 2: Big Data Predictive Analytics Model for CVD Detection
 **DOI:** [10.1109/iSSSC56467.2022.10051293](https://doi.org/10.1109/iSSSC56467.2022.10051293)
 
 ### Abstract
@@ -84,4 +74,4 @@ This project extends CVD risk prediction into a big data and AI-driven framework
 
 ---
 
-For more details, see the full papers or contact me!
+For more details, see the full papers or reach out for collaboration!
